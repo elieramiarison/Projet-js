@@ -1,11 +1,9 @@
 let inputAdd = document.getElementById("nouvTache");
 let add = document.getElementById("add");
 let clear = document.getElementById("clear");
-let somme = 0;
 
 add.addEventListener("click", () => {
     let inputA = inputAdd.value;
-    somme += somme
 
     const btn = document.createElement("button");
     btn.innerText = "Remove";
